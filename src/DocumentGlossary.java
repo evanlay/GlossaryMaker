@@ -4,7 +4,11 @@ public class DocumentGlossary extends ArrayList<GlossaryEntry> {
         super();
     }
     public DocumentGlossary(int length){
-        super();
+        super(length);
+    }
+    private int foundOrInserted(String word){
+            if(){}
+            return 0;
     }
     public void addWord(String word, int num){
         GlossaryEntry word2 = new GlossaryEntry(word);
