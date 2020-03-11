@@ -7,7 +7,7 @@ public class DocumentGlossary extends ArrayList<GlossaryEntry> {
         super(length);
     }
     private int foundOrInserted(String word){
-            if(){}
+            if(0 == 1){}
             return 0;
     }
     public void addWord(String word, int num){
